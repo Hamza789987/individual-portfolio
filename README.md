@@ -12,6 +12,7 @@
   - [How do I deploy my site to the internet?](#how-do-i-deploy-my-site-to-the-internet)
 
 ## Overview
+
 ### What is a Developer Portfolio?
 
 A Developer Portfolio is a website that showcases your skills, experience and work to prospective employers. It
@@ -33,7 +34,7 @@ The best way is to build one yourself! This way, even the portfolio site itself 
 and experience.
 
 First, plan your portfolio! Do some research on designs, think about what content you want to include, structure the
-very high-level layout of the site, etc. Check out the 
+very high-level layout of the site, etc. Check out the
 [Where can I find examples or inspiration?](#where-can-i-find-examples-or-inspiration) section below.
 
 Next, build it! What you use to build it is up to you, and it will generally be one of:
@@ -45,7 +46,7 @@ Next, build it! What you use to build it is up to you, and it will generally be 
 > At this stage, it is NOT advised to build something with a new language or framework. Save this for the projects
 > that you want to showcase in the portfolio!
 
-Use [this guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) 
+Use [this guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
 to help you create a new GitHub repository for your portfolio
 
 In terms of the content to include, at a very high level, you will want to include:
@@ -68,26 +69,29 @@ For more ideas/detail, read through the relevant sections of
 [this e-book](https://www.joshwcomeau.com/effective-portfolio/download-book/).
 
 ## Instructions
-You should create your portfolio in a new repo on your own account. But to make it easier for teachers and staff to 
+
+You should create your portfolio in a new repo on your own account. But to make it easier for teachers and staff to
 access your portfolio, please do the following:
+
 - [ ] Fork this repo, and clone the forked version from your GitHub account
 - [ ] Rename this `README.md` file to something else (e.g. `INSTRUCTIONS.md`)
-- [ ] Create a new file called `README.md`, and include the following content sections (complete them as and when 
-  you are able to):
+- [ ] Create a new file called `README.md`, and include the following content sections (complete them as and when
+      you are able to):
   - About My Portfolio Project
     - Planning & Inspiration _(e.g. include drawings, diagrams, links to sites used to get ideas, etc.)_
     - Tech Stack _(i.e. what technology / frameworks / libraries you used)_
     - Why This Stack
-  - Links 
+  - Links
     - Online Hosted Portfolio
     - Portfolio GitHub Repo
 - [ ] Push your code and raise a PR, as per the usual process
 - [ ] If any information changes, update it, and push your changes (especially important for the links)
 
-> **NOTE:** We do not want you to use the fork of this repo to host your portfolio project code! Create a new 
+> **NOTE:** We do not want you to use the fork of this repo to host your portfolio project code! Create a new
 > dedicated repo for it from your own account.
 
 ## Resources
+
 ### Where can I find examples or inspiration?
 
 Here are some sites to check out:
@@ -110,7 +114,7 @@ There are various approaches, and it depends on what sort of site/application yo
      - You should check out additional setup instructions for `vite`
        [here](https://vitejs.dev/guide/static-deploy.html#github-pages)
   2. Use Netlify, as per the instructions below for "React with Routing".
-- **React with Routing** - If you have routing, then this is the best approach. It is also a good option if you have 
+- **React with Routing** - If you have routing, then this is the best approach. It is also a good option if you have
   a React SPA with no routing. It requires a bit of setup so follow the guides carefully!
   - [Freecodecamp tutorial](https://www.freecodecamp.org/news/how-to-deploy-react-router-based-app-to-netlify/)
     - It is NOT advised to use the "Drag and Drop the Build Folder in Netlify" approach
@@ -118,7 +122,9 @@ There are various approaches, and it depends on what sort of site/application yo
     - Beware that this is from 2021 so some things may have changed
   - [Netlify instructions](https://docs.netlify.com/integrations/frameworks/vite/#deploy-your-vite-project-with-netlify-cli)
     - These are the official Netlify instructions for deploying a React app built using `vite`
-    - It involves installing their Command Line Interface (CLI), which is a programme that you run from your 
+    - It involves installing their Command Line Interface (CLI), which is a programme that you run from your
       terminal / GitBash.
-  > Whichever Netlify  guide you follow, be sure to do the steps fo adding a `_redirects` file to enable both React SPA 
-  > and React with Routing apps to work properly. 
+      > Whichever Netlify guide you follow, be sure to do the steps fo adding a `_redirects` file to enable both React SPA
+      > and React with Routing apps to work properly.
+
+Link to my Portfolio: `https://github.com/Hamza789987/Hamza-Portfolio`
